@@ -1,0 +1,16 @@
+1. putc "Beautiful Code" returns B and putc 321 returns 
+
+2. 5*3 = 8 and 5 ** 3 gives 125
+
+3. 
+
+4. putc prints an extra line after actual content
+
+5. capitalize makes the first letter capital and upper case capitalized the entire word
+
+6. gets includes all the additional spaces where gets.chomp cuts them
+
+7. .reverse doesnt mutate the original array where .reverse! does
+
+8. Array is a set of objects where as hash is a set of key, value pairs
+
