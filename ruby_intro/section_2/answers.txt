@@ -1,0 +1,16 @@
+
+1. splat arguments can be used when we are not sure about the number of input parameters 
+and regular arguments when we only want to allow fixed number of parameters
+
+2. 1. [2,3,5,6,7]
+   2. [7,6,5,3,2]
+   
+3. symbols are better as they have a unique value
+
+4. No difference. They are the same methods with different names.
+
+5. = is regular assignment operator where ||= is conditional assignment operator
+
+6. block is a piece of code between {} or do-end where proc is a named block which can be reused
+
+7.Proc and Lambda are similar except that proc doesnt return control to calling method but lambda does
