@@ -6,7 +6,7 @@
 
 4. putc prints an extra line after actual content
 
-5. capitalize makes the first letter capital and upper case capitalized the entire word
+5. capitalize makes the first letter capital and upper case capitalizes the entire word
 
 6. gets includes all the additional spaces where gets.chomp cuts them
 

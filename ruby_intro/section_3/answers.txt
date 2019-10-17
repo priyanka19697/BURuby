@@ -1,0 +1,25 @@
+
+
+1. This throws a superclasss mismatch error. This is because ruby doesnt allow multiple inheritance.
+
+2. instance variables are represented with @ ,
+   class variables are represented with @@.
+
+   instance variables are private for each instance but all of them share the same class variable.
+
+3. super keyword allows us to refer to the method of parent class from child class
+
+4. attr_reader makes the data of a method in class available to access
+ def method
+    @method
+ end 
+ def method=(value)
+    @method = value
+ end
+   attr_writer makes it writable from outside
+
+5. require - gives us access to modules
+   include - lets us use all methods of module as instance methods
+   extend - lets us use all methods as class methods
+
+   
