@@ -1,8 +1,18 @@
 class Stack
+  attr_reader:size
     def initialize(size)
       @size = size
       @stack = Array.new(@size)
       @top = -1
+    end
+
+    def push(element)
+      if @top >= @size 
+        nil
+      else
+        @top = @top + 1
+        @stack[@top] = element
+      end
     end
     
     def pop
@@ -17,18 +27,10 @@ class Stack
       end
     end
     
-    def push(element)
-      if @top >= @size 
-        nil
-      else
-        @top = @top + 1
-        @stack[@top] = element
-      end
-    end
     
-    def size
-     @size
-    end
+    # def size
+    #  @size
+    # end
     
     def top
       print @stack[@top]
