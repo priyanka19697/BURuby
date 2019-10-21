@@ -10,7 +10,7 @@ class Stack
       if @top >= @size 
         nil
       else
-        @top = @top + 1
+        # @top = @top + 1
         @stack[@top] = element
       end
     end
@@ -38,7 +38,7 @@ class Stack
 
     def display
         @size.times do |i|
-            print @stack[i]
+            puts @stack[i]
         end
     end
     
@@ -52,6 +52,8 @@ firstStack.push(8)
 firstStack.push(9)
 firstStack.push(11)
 
+
+firstStack.display;
 
 firstStack.pop()
 firstStack.pop()

@@ -8,11 +8,11 @@ class Player
         @name = value
     end
 
-    def self.team()
+    def self.team
         return "Team India"
     end
 end
 a = Player.new
 a.name="Dhoni"
 
-puts a.name+" is from"+Player.team();
+puts a.name+" is from"+Player.team;
